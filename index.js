@@ -25,7 +25,7 @@ app.use(function(req, res, next) {
 });
 
 
-app.get('', (req, resp) => {
+app.get('/token', (req, resp) => {
     let client_id = 'af93cef4da294b4b9f1614173b08b58b';
     let client_secret = '46c908906aa9462faad59ccb94f16c3d';
     let spotifyUrl = 'https://accounts.spotify.com/api/token';
